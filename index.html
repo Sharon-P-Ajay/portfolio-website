@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ac596fb378.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="page">
+            <div class="container">
+                <nav>
+                    <h1 class="navhead">PORTFOLIO</h1>
+                    <ul id="sidemenu">
+                        <li><a href="#header">HOME</a></li>
+                        <li><a href="#aboutpage">ABOUT ME</a></li>
+                        <li><a href="#exppage">SKILLS</a></li>
+                        <li><a href="#workspage">WORKS</a></li>
+                        <li><a href="#contactpage">CONTACT</a></li>  
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </div>
+            <div class="homepage">
+                <div class="col1">
+                    <img src="pic1.png" class="homepic" alt="">
+                </div>
+                <div class="col2">
+                    <h1 class="homeh1">Hi</h1>
+                    <h1 class="homeh2">I'm SHARON</h1>
+                    <a href="da.png" download  class="btn">
+                        <h1>Resume</h1>
+                        <img src="da.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="aboutpage">
+        <div class="page">
+            <div class="main">
+                <div class="abouttext">
+                    <h1 class="headings">ABOUT ME</h1>
+                    <p class="text">Lorem Ipsum is simply dummy text of 
+                        the printing and typesetting industry.
+                         Lorem Ipsum has been the industry's 
+                         standard dummy text ever since the 1500s
+                         , when an unknown printer took a galley 
+                         of type and scrambled it to make a type 
+                         specimen book.</p>
+                </div>
+                <div class="aboutimg">
+                    <img src="pic1.png" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="exppage">
+        <div class="page">
+            <div>
+                <div class="head">
+                    <h1 class="headings">SKILLS</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------works------ -->
+    <div id="workspage">
+        <div class="page">
+            <div class="head">
+                <h1 class="headings">WORKS</h1>
+            </div>
+            <div class="box">
+                
+                <div class="card">
+                        <h2 class="whead">UI/UX Designing</h2>
+                        <p class="para"> 
+                            <a class="buttn" href="">View More</a>
+                        </p>
+                </div>
+                <div class="card">
+                        <h2 class="whead">Web Designing</h2>
+                        <p class="para"> 
+                            <a class="buttn" href="">View More</a>
+                        </p>
+                </div>
+                <div class="card">
+                        <h2 class="whead">UI/UX Designing</h2>
+                        <p class="para"> 
+                            <a class="buttn" href="">View More</a>
+                        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contactpage">
+        <div class="page">
+            <div class="head">
+                <h1 class="headings">CONTACT</h1>
+            </div>
+            <div class="conbox1">
+                <form>
+                    <input type="Message" name="Message" id="mail" placeholder="Text">
+                    <button class="sendbtn">Send</button>
+                </form>
+            </div>
+            <div class="conbox">
+                <div class="icons">
+                    <a href="https://instagram.com/_._sharon_p_?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="icons">
+                    <a href="https://wa.me/7994642220?text=Hi%20I'm%20contacting%20from%20your%20website"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <div class="icons">
+                    <a href="mailto: sharonpajay@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/sharon-p-ajay-87b709292/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="icons">
+                    <a href="https://github.com/Sharon-P-Ajay" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------base------------ -->
+
+    <div id="basepage">
+        <div class="page">
+            <div class="basetext">
+                <div class="baseicon">
+                    <i class="fa-regular fa-copyright"></i>
+                </div>
+                <h1>sharonpajay</h1>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var side = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        side.style.right="0px";
+    }
+    function closemenu(){
+        side.style.right="-200px";
+    }
+</script>
+</html>
